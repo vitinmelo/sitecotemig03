@@ -1,0 +1,229 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.telefone{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+header{
+    background-color: rgba(26, 25, 25, 0.781);
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    align-items: row;
+    text-align: center;
+    list-style: none;
+    width: fit-content;
+    justify-content: space-between;
+}
+header li {
+    transition: ease 0.2s;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 500;
+    margin: 14px;
+    display: inline-block;
+    margin-left: 10px;
+}
+ul{
+margin-left: 10vw;
+}
+.ti{ text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+}
+.to{text-align: center; 
+margin-top: 50px;
+font-size: 18px;}
+
+.banner{
+    background-image: url(desktopimagefull-1650984096573.png );
+    font-family: 'lato';
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: 0;
+    z-index: 0;
+    padding-top: 200px;
+    padding-left: 400px;
+}
+.banner h1{
+    font-size: 2.5em;
+}
+.cara{
+    margin-top: 20px;
+    padding: 1px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(64, 170, 11);
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease;
+    font-weight: bold;
+}
+.cara:hover{
+    background-color: rgb(76, 206, 11);
+}
+.titulo{
+    margin-top: 130px;
+    text-align: center;
+    position: relative;
+    top: 320px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.titulo h5{
+    font-weight: thin;
+}
+.cards{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 350px;
+    display: flex;
+    height: 340px;
+    
+}
+.card{
+    border: hidden;
+    height: 340px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 8px 1em gray;
+    margin: 10px;
+}
+.card-img{
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    background-size: cover;
+    height: 300px;
+    width: 250;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-end;
+    font-size: 25px;
+    padding-left: 10px;
+}
+#card1{
+    background-image: url(imgg06.jpg);
+}
+#card2{
+    background-image: url(imgg03.jpg);
+}
+#card3{
+    background-image: url(imgg02.jpg);
+}
+#card4{
+    background-image: url(imgg01.jpg);
+}
+.card p{
+    transition: ease 0.15s;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card p:hover{
+    color: rgb(64, 170, 11);
+}
+.unidades{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 350px;
+    display: flex;
+    height: 340px;
+}
+.unidades IMG{
+margin: 10px;
+border-radius: 15px;
+transition: ease 0.15s;
+box-shadow: 0 8px 1em gray;
+}
+.unidades IMG:hover{
+    transform: translateY(-8px);
+}
+.contato{
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    top: 320px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.contato h2{
+    color: rgb(64, 170, 11);
+}
+.noticias{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 350px;
+    display: flex;
+    height: 340px;
+}
+.noticia{
+    border-radius: 15px;
+    width: 280px;
+    height: 320px;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+}
+.noticia img{
+    transition: ease 0.2s;
+}
+.texto-nerd{
+    z-index: 5;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    bottom: 10px;
+}
+.texto-nerd p{
+    font-size: 15px;
+}
+.noticia img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: rgb(21, 21, 21);
+    bottom: 0;
+    margin-top: 400px;
+    height: 400px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    color: white;
+}
+.links-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.links-rodape p{
+    font-size: 15px;
+    font-weight: thin;
+}
